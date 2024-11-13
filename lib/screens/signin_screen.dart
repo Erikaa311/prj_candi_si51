@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -91,3 +92,32 @@ class _SigninScreenState extends State<SigninScreen> {
         ));
   }
 }
+=======
+import 'package:flutter/material.dart';
+
+class SigninScreen extends StatelessWidget {
+  SigninScreen({super.key});
+  //TODO 1 : Variabel
+
+  final TextEditingController _usernameController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+    // TODO: 2. pasang appBar
+    appBar: AppBar(
+      title: Text('Sign In'),
+    ),
+    // TODO: 3. Buat body
+    body: Center(
+      child: Form(
+        child: Column(
+          //TODO: 4. Atur mainAnxiSa
+        )
+      )
+    )
+    )
+  }
+}
+>>>>>>> 580114c241e9b7c4f002a4def208ee500b565fc6
